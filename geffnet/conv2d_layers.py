@@ -5,7 +5,9 @@ MobileNetV3 models that maintain weight compatibility with original Tensorflow m
 
 Copyright 2020 Ross Wightman
 """
-import collections.abc
+#import collections.abc
+import collections.abc as container_abcs
+
 import math
 from functools import partial
 from itertools import repeat
